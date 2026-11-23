@@ -1,0 +1,860 @@
+[
+  {
+    "id": 1,
+    "title": "CHƯƠNG 1. PHÂN LOẠI VÀ DANH PHÁP KHOA HỌC",
+    "short_title": "Chương 1",
+    "intro": "Đợt 1 gồm 24 câu. Số câu là số thứ tự trong file đề cương gốc; các câu có nội dung giống nhau được gom lại cùng một nhóm để dễ đối chiếu và nhớ. Đáp án được xác định theo giáo trình và kiến thức thực vật học, không dựa hoàn toàn vào file đáp án của đề cương.",
+    "file_name": "media_1795451137012_2272555c.docx",
+    "question_count": 24,
+    "sections": [
+      {
+        "id": "1.1",
+        "chapter_id": 1,
+        "chapter_title": "CHƯƠNG 1. PHÂN LOẠI VÀ DANH PHÁP KHOA HỌC",
+        "title": "1.1 Các bậc phân loại và đuôi tên",
+        "theory": "Hệ thống Linne gồm 7 bậc: Giới > Ngành > Lớp > Bộ > Họ > Chi > Loài. Bậc càng cao càng rộng, một Ngành chứa nhiều Bộ, một Bộ chứa nhiều Họ, một Họ chứa nhiều Chi, một Chi chứa nhiều Loài. Tên thực vật có đuôi chuẩn: Bộ tận cùng -ales, Họ tận cùng -aceae. Cách nhớ: “Giới – Ngành – Lớp – Bộ – Họ – Chi – Loài”.",
+        "question_ids": [
+          "q_1_1",
+          "q_2_170",
+          "q_3_2",
+          "q_4_168",
+          "q_5_169"
+        ]
+      },
+      {
+        "id": "1.2",
+        "chapter_id": 1,
+        "chapter_title": "CHƯƠNG 1. PHÂN LOẠI VÀ DANH PHÁP KHOA HỌC",
+        "title": "1.2 Danh pháp hai tên và tên họ",
+        "theory": "Danh pháp hai tên của Linne gồm tên Chi (viết hoa) + tính từ loài (viết thường) + tên tác giả. Tên Chi và tên loài viết nghiêng, tên tác giả viết thẳng. “et” nối hai tác giả; “in” nghĩa là công bố trong tác phẩm của người khác; “cv.” là giống trồng; “sp.” một loài, “spp.” nhiều loài; “ssp.” loài phụ; “var.” thứ; “f.” dạng. Tên Họ thực vật có đuôi -aceae.",
+        "question_ids": [
+          "q_6_4",
+          "q_7_5",
+          "q_8_6",
+          "q_9_236",
+          "q_10_22",
+          "q_11_135",
+          "q_12_136",
+          "q_13_304",
+          "q_14_305"
+        ]
+      },
+      {
+        "id": "1.3",
+        "chapter_id": 1,
+        "chapter_title": "CHƯƠNG 1. PHÂN LOẠI VÀ DANH PHÁP KHOA HỌC",
+        "title": "1.3 Tên loài gợi ý nguồn gốc xuất xứ",
+        "theory": "Tính từ loài trong tên khoa học thường gợi nơi phân bố hoặc đặc điểm: indica/indicum = Ấn Độ; sinensis = Trung Quốc; brasiliensis = Brasil; italica = Ý; americana = châu Mỹ; occidentale = phía Tây; esculenta = ăn được; aquatica = sống ở nước; aromatica = có mùi thơm. Ví dụ: Mangifera indica (xoài), Camellia sinensis (trà), Hevea brasiliensis (cao su).",
+        "question_ids": [
+          "q_15_7",
+          "q_16_8",
+          "q_17_3",
+          "q_18_115",
+          "q_19_116",
+          "q_20_118"
+        ]
+      },
+      {
+        "id": "1.4",
+        "chapter_id": 1,
+        "chapter_title": "CHƯƠNG 1. PHÂN LOẠI VÀ DANH PHÁP KHOA HỌC",
+        "title": "1.4 Định danh, phân loại và mô tả loài",
+        "theory": "Định danh (identification) là xác định mẫu thuộc taxon đã biết (tra khóa, so sánh mẫu, DNA barcode, ứng dụng nhận diện ảnh). Phân loại (classification) là sắp xếp các taxon vào hệ thống. Mô tả (description) là công bố đặc điểm của loài mới kèm mẫu chuẩn; đây là điều kiện để tên loài mới hợp lệ. Linne phân loại chủ yếu dựa vào cơ quan sinh sản (số nhị, số nhụy).",
+        "question_ids": [
+          "q_21_239",
+          "q_22_240",
+          "q_23_241",
+          "q_24_158"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "CHƯƠNG 2. RỄ, CỘNG SINH VÀ CÁC LOẠI \"CỦ\"",
+    "short_title": "Chương 2",
+    "intro": "Đợt 1 gồm 24 câu. Số câu là số thứ tự trong file đề cương gốc; các câu có nội dung giống nhau được gom lại cùng một nhóm để dễ đối chiếu và nhớ. Đáp án được xác định theo giáo trình và kiến thức thực vật học, không dựa hoàn toàn vào file đáp án của đề cương.",
+    "file_name": "media_1795451137012_8c863355.docx",
+    "question_count": 24,
+    "sections": [
+      {
+        "id": "2.1",
+        "chapter_id": 2,
+        "chapter_title": "CHƯƠNG 2. RỄ, CỘNG SINH VÀ CÁC LOẠI \"CỦ\"",
+        "title": "2.1 Các vùng của rễ",
+        "theory": "Từ đầu rễ lên có: chóp rễ (bảo vệ, tiết dịch nhầy), vùng phân chia (mô phân sinh đỉnh, sát chóp), vùng kéo dài (tế bào giãn dài) và vùng trưởng thành (có lông hút, mạch dẫn đã phân hóa). Các câu trong đề dùng cách chia 3 vùng: phân chia, kéo dài, trưởng thành.",
+        "question_ids": [
+          "q_25_9",
+          "q_26_17",
+          "q_27_18",
+          "q_28_16",
+          "q_29_10"
+        ]
+      },
+      {
+        "id": "2.2",
+        "chapter_id": 2,
+        "chapter_title": "CHƯƠNG 2. RỄ, CỘNG SINH VÀ CÁC LOẠI \"CỦ\"",
+        "title": "2.2 Các loại rễ",
+        "theory": "Rễ cọc: có rễ cái ăn sâu, thường ở cây 2 lá mầm (đậu nành, cà rốt). Rễ chùm: gồm nhiều rễ bất định cùng cỡ, thường ở cây 1 lá mầm (lúa, bắp, dừa). Rễ bất định mọc từ thân hoặc lá (rễ kiềng của bắp, rễ khí sinh của phong lan). Rễ bám giúp cây leo bám vào giá thể.",
+        "question_ids": [
+          "q_30_11",
+          "q_31_23",
+          "q_32_235"
+        ]
+      },
+      {
+        "id": "2.3",
+        "chapter_id": 2,
+        "chapter_title": "CHƯƠNG 2. RỄ, CỘNG SINH VÀ CÁC LOẠI \"CỦ\"",
+        "title": "2.3 Vi sinh vật cộng sinh vùng rễ và PGPR",
+        "theory": "Rhizobium là vi khuẩn nốt sần, cộng sinh với cây họ Đậu và cố định đạm (N2). Mycorrhizae là nấm rễ, cộng sinh với rễ của hầu hết thực vật, giúp tăng hấp thu nước và lân. Trichoderma là nấm đối kháng, dùng phòng bệnh. Phytophthora là sinh vật gây bệnh. PGPR (Plant Growth-Promoting Rhizobacteria) là vi khuẩn vùng rễ thúc đẩy sinh trưởng cây.",
+        "question_ids": [
+          "q_33_19",
+          "q_34_20",
+          "q_35_147",
+          "q_36_242",
+          "q_37_243"
+        ]
+      },
+      {
+        "id": "2.4",
+        "chapter_id": 2,
+        "chapter_title": "CHƯƠNG 2. RỄ, CỘNG SINH VÀ CÁC LOẠI \"CỦ\"",
+        "title": "2.4 Các loại “củ” và bản chất thực vật học",
+        "theory": "Củ có nguồn gốc khác nhau: thân (khoai tây, gừng, nghệ là thân rễ, củ chuối); rễ (khoai lang là rễ phụ phình, cà rốt và củ cải là rễ cọc phình); bẹ lá (tỏi, hành). “Củ” đậu phộng thực chất là quả, phát triển dưới đất sau khi cuống bầu đâm xuống.",
+        "question_ids": [
+          "q_38_12",
+          "q_39_13",
+          "q_40_247",
+          "q_41_244",
+          "q_42_246",
+          "q_43_248",
+          "q_44_245",
+          "q_45_249",
+          "q_46_310",
+          "q_47_51",
+          "q_48_327"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "CHƯƠNG 3. MÔ, THÂN VÀ LÁ",
+    "short_title": "Chương 3",
+    "intro": "Đợt 1 gồm 27 câu. Số câu là số thứ tự trong file đề cương gốc; các câu có nội dung giống nhau được gom lại cùng một nhóm để dễ đối chiếu và nhớ. Đáp án được xác định theo giáo trình và kiến thức thực vật học, không dựa hoàn toàn vào file đáp án của đề cương.",
+    "file_name": "media_1795451137011_c6b2079e.docx",
+    "question_count": 27,
+    "sections": [
+      {
+        "id": "3.1",
+        "chapter_id": 3,
+        "chapter_title": "CHƯƠNG 3. MÔ, THÂN VÀ LÁ",
+        "title": "3.1 Mô, mô phân sinh và tượng tầng",
+        "theory": "Mô là tập hợp tế bào cùng chức năng. Mô phân sinh gồm mô phân sinh đỉnh (làm cây dài ra), mô phân sinh bên (tượng tầng, làm thân dày lên, chỉ có ở cây 2 lá mầm thân gỗ và cây hạt trần) và mô phân sinh lóng (xen kẽ, đặc trưng của họ Hòa thảo). Cây 1 lá mầm (lúa, bắp, dừa) không có tượng tầng. Tượng tầng tạo gỗ thứ cấp (xylem) vào trong và libe thứ cấp (phloem) ra ngoài.",
+        "question_ids": [
+          "q_49_15",
+          "q_50_35",
+          "q_51_14",
+          "q_52_36",
+          "q_53_274",
+          "q_54_251",
+          "q_55_252",
+          "q_56_250",
+          "q_57_46"
+        ]
+      },
+      {
+        "id": "3.2",
+        "chapter_id": 3,
+        "chapter_title": "CHƯƠNG 3. MÔ, THÂN VÀ LÁ",
+        "title": "3.2 Cấu tạo thân và quang hợp ở lá",
+        "theory": "Thân cây 2 lá mầm sắp theo thứ tự từ ngoài vào: biểu bì, vỏ, libe (mạch nhựa), tượng tầng, gỗ (mạch gỗ), tủy; bó mạch xếp thành vòng. Thân cây 1 lá mầm có bó mạch rải rác. Khí khổng tập trung ở mặt dưới lá. Chlorophyll hấp thu mạnh ánh sáng xanh dương và đỏ.",
+        "question_ids": [
+          "q_58_50",
+          "q_59_178",
+          "q_60_49",
+          "q_61_37",
+          "q_62_266",
+          "q_63_47"
+        ]
+      },
+      {
+        "id": "3.3",
+        "chapter_id": 3,
+        "chapter_title": "CHƯƠNG 3. MÔ, THÂN VÀ LÁ",
+        "title": "3.3 Các kiểu lá và bộ phận liên quan",
+        "theory": "Lá đơn có một phiến; lá kép có nhiều lá chét. Lá kép chân vịt: các lá chét xuất phát từ một điểm (cao su, sâm Ngọc Linh). Lá kép lông chim: lá chét xếp hai bên trục. Lá kép 2 lần lông chim: phượng vỹ. Lá bắc nằm sát hoặc bao hoa; lá kèm ở gốc cuống lá.",
+        "question_ids": [
+          "q_64_48",
+          "q_65_139",
+          "q_66_67",
+          "q_67_68",
+          "q_68_69",
+          "q_69_70",
+          "q_70_262",
+          "q_71_119",
+          "q_72_267"
+        ]
+      },
+      {
+        "id": "3.4",
+        "chapter_id": 3,
+        "chapter_title": "CHƯƠNG 3. MÔ, THÂN VÀ LÁ",
+        "title": "3.4 Gai là biến thể của cơ quan nào",
+        "theory": "Gai có nhiều nguồn gốc: gai của xương rồng và thanh long là lá biến đổi; gai chanh, bồ kết là cành (thân) biến đổi; gai hoa hồng là gai bì (mọc từ biểu bì và vỏ), không phải cành hay lá.",
+        "question_ids": [
+          "q_73_273",
+          "q_74_171",
+          "q_75_172"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "CHƯƠNG 4. HOA, HOA ĐỒ VÀ HOA THỨC",
+    "short_title": "Chương 4",
+    "intro": "Đợt 1 gồm 35 câu. Số câu là số thứ tự trong file đề cương gốc; các câu có nội dung giống nhau được gom lại cùng một nhóm để dễ đối chiếu và nhớ. Đáp án được xác định theo giáo trình và kiến thức thực vật học, không dựa hoàn toàn vào file đáp án của đề cương.",
+    "file_name": "media_1795451137009_3f24af44.docx",
+    "question_count": 35,
+    "sections": [
+      {
+        "id": "4.1",
+        "chapter_id": 4,
+        "chapter_title": "CHƯƠNG 4. HOA, HOA ĐỒ VÀ HOA THỨC",
+        "title": "4.1 Cấu tạo hoa, nhị, nhụy và hạt phấn nảy mầm",
+        "theory": "Hoa đầy đủ gồm đài, tràng (cánh), bộ nhị và bộ nhụy. Nhị = bao phấn (túi phấn) + chỉ nhị. Nhụy = bầu noãn + vòi nhụy + núm nhụy. Hạt phấn rơi lên núm, nảy mầm thành ống phấn đi qua vòi nhụy xuống bầu noãn. Bầu noãn phát triển thành quả thật.",
+        "question_ids": [
+          "q_76_171",
+          "q_77_177",
+          "q_78_175",
+          "q_79_176",
+          "q_80_174",
+          "q_81_173",
+          "q_82_172",
+          "q_83_179",
+          "q_84_74"
+        ]
+      },
+      {
+        "id": "4.2",
+        "chapter_id": 4,
+        "chapter_title": "CHƯƠNG 4. HOA, HOA ĐỒ VÀ HOA THỨC",
+        "title": "4.2 Hoa đồ và hoa thức",
+        "theory": "Hoa đồ là hình vẽ mặt cắt ngang của 1 bông hoa. Hoa thức là công thức ngắn gọn của hoa: K (đài, Kelch), C (tràng, Corolla), A (bộ nhị, Androecium), G (bộ nhụy, Gynoecium). Thứ tự viết K–C–A–G. Số trong ngoặc tròn là các bộ phận dính nhau; ngoặc vuông cho các bộ phận gắn trên nhau. Hoa tự là cách sắp xếp nhiều hoa trên một trục (phát hoa).",
+        "question_ids": [
+          "q_85_55",
+          "q_86_56",
+          "q_87_57",
+          "q_88_58",
+          "q_89_59",
+          "q_90_60",
+          "q_91_61",
+          "q_92_64",
+          "q_93_331",
+          "q_94_332",
+          "q_95_333"
+        ]
+      },
+      {
+        "id": "4.3",
+        "chapter_id": 4,
+        "chapter_title": "CHƯƠNG 4. HOA, HOA ĐỒ VÀ HOA THỨC",
+        "title": "4.3 Bầu thượng, bầu hạ và số lá noãn",
+        "theory": "Bầu thượng: bầu nằm trên đế hoa, các bộ phận khác dưới bầu (cam, xoài, cà chua, mận). Bầu hạ: bầu nằm dưới, bị đế hoa bao (ổi, mướp, dưa, chuối). Lá noãn có thể rời (sen) hoặc dính nhau tạo bầu nhiều ngăn (bưởi, quýt); bơ chỉ có 1 lá noãn.",
+        "question_ids": [
+          "q_96_322",
+          "q_97_323",
+          "q_98_31",
+          "q_99_30",
+          "q_100_32",
+          "q_101_33"
+        ]
+      },
+      {
+        "id": "4.4",
+        "chapter_id": 4,
+        "chapter_title": "CHƯƠNG 4. HOA, HOA ĐỒ VÀ HOA THỨC",
+        "title": "4.4 Hoa tự, hoa đơn tính và râu bắp",
+        "theory": "Họ Cúc (Asteraceae) có hoa tự đầu: nhiều hoa nhỏ (hoa ống, hoa lưỡi) tụ trên một đế hoa chung nên “bông hoa” của hướng dương, vạn thọ, cúc là cả một hoa tự. Bắp có hoa đơn tính cùng gốc: hoa đực ở cờ, hoa cái ở bắp. Râu bắp là vòi nhụy.",
+        "question_ids": [
+          "q_102_45",
+          "q_103_280",
+          "q_104_281",
+          "q_105_114",
+          "q_106_268"
+        ]
+      },
+      {
+        "id": "4.5",
+        "chapter_id": 4,
+        "chapter_title": "CHƯƠNG 4. HOA, HOA ĐỒ VÀ HOA THỨC",
+        "title": "4.5 Hạt phấn và tế bào liên quan",
+        "theory": "Hạt phấn là thể giao tử đực (n): có nhân dinh dưỡng và nhân sinh sản (sau chia thành 2 tinh tử). Nội nhũ của hạt là 3n (do 2 nhân cực kết hợp với 1 tinh tử); phôi 2n. Ống phấn mọc ở đỉnh, tốc độ kéo dài rất nhanh.",
+        "question_ids": [
+          "q_107_75",
+          "q_108_76",
+          "q_109_77",
+          "q_110_78"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "CHƯƠNG 5. QUẢ VÀ HẠT",
+    "short_title": "Chương 5",
+    "intro": "Đợt 1 gồm 22 câu. Số câu là số thứ tự trong file đề cương gốc; các câu có nội dung giống nhau được gom lại cùng một nhóm để dễ đối chiếu và nhớ. Đáp án được xác định theo giáo trình và kiến thức thực vật học, không dựa hoàn toàn vào file đáp án của đề cương.",
+    "file_name": "media_1795451137010_68410088.docx",
+    "question_count": 22,
+    "sections": [
+      {
+        "id": "5.1",
+        "chapter_id": 5,
+        "chapter_title": "CHƯƠNG 5. QUẢ VÀ HẠT",
+        "title": "5.1 Các lớp vỏ quả và quả giả",
+        "theory": "Vỏ quả (pericarp) gồm 3 lớp: quả ngoài (exocarp), quả giữa (mesocarp), quả trong (endocarp). Quả thật phát triển từ bầu noãn; quả giả (pseudocarp) có thêm phần khác của hoa như đế hoa tham gia (táo, dâu tây, sung).",
+        "question_ids": [
+          "q_111_253",
+          "q_112_254",
+          "q_113_255",
+          "q_114_256"
+        ]
+      },
+      {
+        "id": "5.2",
+        "chapter_id": 5,
+        "chapter_title": "CHƯƠNG 5. QUẢ VÀ HẠT",
+        "title": "5.2 Phần ăn được thuộc lớp quả nào",
+        "theory": "Xoài và bơ: ăn lớp quả giữa (thịt quả); hạt nằm trong lớp quả trong cứng (xoài). Dừa: ăn phần cùi (nội nhũ) bên trong vỏ gáo (quả trong). Măng cụt: ăn phần thịt trắng bên trong, tính là quả trong theo cách hiểu của đề.",
+        "question_ids": [
+          "q_115_257",
+          "q_116_258",
+          "q_117_259",
+          "q_118_260",
+          "q_119_271",
+          "q_120_275",
+          "q_121_276"
+        ]
+      },
+      {
+        "id": "5.3",
+        "chapter_id": 5,
+        "chapter_title": "CHƯƠNG 5. QUẢ VÀ HẠT",
+        "title": "5.3 Các kiểu quả và họ có quả đặc trưng",
+        "theory": "Quả hạch (drupe): vỏ trong cứng bọc hạt (xoài, dừa, cà phê). Quả mọng (berry): toàn bộ thịt mềm (đu đủ, cà chua, chuối). Quả nang (capsule): khô, nứt khi chín (mè, cao su, sầu riêng). Quả có múi là đặc trưng họ Cam (Rutaceae). Quả họ Đậu là quả đậu (pod).",
+        "question_ids": [
+          "q_122_72",
+          "q_123_73",
+          "q_124_292",
+          "q_125_293",
+          "q_126_294",
+          "q_127_328",
+          "q_128_95"
+        ]
+      },
+      {
+        "id": "5.4",
+        "chapter_id": 5,
+        "chapter_title": "CHƯƠNG 5. QUẢ VÀ HẠT",
+        "title": "5.4 Quả trinh sinh và hạt đa phôi",
+        "theory": "Quả trinh sinh (parthenocarpy) hình thành không qua thụ tinh nên thường không hạt (chuối, chanh không hạt, dưa leo nhà kính). Giống trinh sinh phù hợp canh tác nhà màng, nhà kính vì không cần côn trùng thụ phấn. Hạt đa phôi: một hạt có nhiều phôi nên mọc nhiều cây con (cam quýt, xoài).",
+        "question_ids": [
+          "q_129_319",
+          "q_130_320",
+          "q_131_321",
+          "q_132_272"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "CHƯƠNG 6. DI TRUYỀN, BÀO QUAN VÀ ĐA DẠNG SINH HỌC",
+    "short_title": "Chương 6",
+    "intro": "Đợt 1 gồm 17 câu. Số câu là số thứ tự trong file đề cương gốc; các câu có nội dung giống nhau được gom lại cùng một nhóm để dễ đối chiếu và nhớ. Đáp án được xác định theo giáo trình và kiến thức thực vật học, không dựa hoàn toàn vào file đáp án của đề cương.",
+    "file_name": "media_1795451137009_c9577288.docx",
+    "question_count": 17,
+    "sections": [
+      {
+        "id": "6.1",
+        "chapter_id": 6,
+        "chapter_title": "CHƯƠNG 6. DI TRUYỀN, BÀO QUAN VÀ ĐA DẠNG SINH HỌC",
+        "title": "6.1 DNA trong tế bào thực vật",
+        "theory": "Tế bào thực vật có DNA ở 3 nơi: nhân, ty thể (mtDNA) và lục lạp/plastid (cpDNA). Ribosome chỉ chứa rRNA và protein. rDNA là gene mã hóa rRNA. Plastome là toàn bộ bộ gene của plastid. SSR (Simple Sequence Repeat) là các đoạn trình tự ngắn lặp lại liền kề.",
+        "question_ids": [
+          "q_133_52",
+          "q_134_53",
+          "q_135_54",
+          "q_136_80",
+          "q_137_79"
+        ]
+      },
+      {
+        "id": "6.2",
+        "chapter_id": 6,
+        "chapter_title": "CHƯƠNG 6. DI TRUYỀN, BÀO QUAN VÀ ĐA DẠNG SINH HỌC",
+        "title": "6.2 Bất dục đực CMS và gene nhảy",
+        "theory": "CMS (Cytoplasmic Male Sterility) là bất dục đực di truyền theo tế bào chất, thường do gene ty thể; được dùng tạo giống lai. Gene nhảy (transposon) là đoạn DNA có thể di chuyển trong bộ gene; khi chèn vào gene màu sắc sẽ gây sọc, đốm màu bất quy tắc trên hoa; đồng thời tạo biến dị di truyền cho tiến hóa.",
+        "question_ids": [
+          "q_138_81",
+          "q_139_82",
+          "q_140_143",
+          "q_141_83"
+        ]
+      },
+      {
+        "id": "6.3",
+        "chapter_id": 6,
+        "chapter_title": "CHƯƠNG 6. DI TRUYỀN, BÀO QUAN VÀ ĐA DẠNG SINH HỌC",
+        "title": "6.3 Đa dạng sinh học, tương đồng và đa dạng di truyền",
+        "theory": "Đa dạng sinh học gồm đa dạng hệ sinh thái, đa dạng loài và đa dạng di truyền. Đa dạng di truyền đối lập với tương đồng di truyền. Giống thuần là giống có mức tương đồng di truyền cao, cho sản phẩm đồng nhất. Hệ sinh thái đa dạng bền vững, hạn chế rủi ro dịch bệnh. Bài giảng SHPT: tần suất biến dị di truyền không đồng nhất trên genome.",
+        "question_ids": [
+          "q_142_25",
+          "q_143_26",
+          "q_144_27",
+          "q_145_28",
+          "q_146_24",
+          "q_147_318"
+        ]
+      },
+      {
+        "id": "6.4",
+        "chapter_id": 6,
+        "chapter_title": "CHƯƠNG 6. DI TRUYỀN, BÀO QUAN VÀ ĐA DẠNG SINH HỌC",
+        "title": "6.4 Kiểu hình và phenome",
+        "theory": "Phenotype là kiểu hình. Phenome là toàn bộ các đặc điểm kiểu hình của một sinh vật hay một loài. Phenomics là lĩnh vực nghiên cứu, phân tích phenome.",
+        "question_ids": [
+          "q_148_44",
+          "q_149_89"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "CHƯƠNG 7. SINH HỌC PHÂN TỬ TRONG HỆ THỐNG HỌC",
+    "short_title": "Chương 7",
+    "intro": "Đợt 1 gồm 34 câu. Số câu là số thứ tự trong file đề cương gốc; các câu có nội dung giống nhau được gom lại cùng một nhóm để dễ đối chiếu và nhớ. Đáp án được xác định theo giáo trình và kiến thức thực vật học, không dựa hoàn toàn vào file đáp án của đề cương.",
+    "file_name": "media_1795451137009_1170fc5c.docx",
+    "question_count": 34,
+    "sections": [
+      {
+        "id": "7.1",
+        "chapter_id": 7,
+        "chapter_title": "CHƯƠNG 7. SINH HỌC PHÂN TỬ TRONG HỆ THỐNG HỌC",
+        "title": "7.1 Kỹ thuật PCR",
+        "theory": "PCR (Polymerase Chain Reaction) khuếch đại một đoạn DNA qua nhiều chu kỳ nhiệt, mỗi chu kỳ gồm 3 bước: 94 °C biến tính (tách 2 sợi), 56 đến 60 °C gắn mồi (primer bắt cặp), 72 °C kéo dài (Taq polymerase tổng hợp). Lượng DNA tăng theo cấp số mũ (2ⁿ). Cần có primer, dNTP, Taq polymerase và DNA khuôn. PCR chỉ khuếch đại, không tự tạo giống mới.",
+        "question_ids": [
+          "q_150_159",
+          "q_151_39",
+          "q_152_38",
+          "q_153_40",
+          "q_154_92",
+          "q_155_91",
+          "q_156_142",
+          "q_157_94"
+        ]
+      },
+      {
+        "id": "7.2",
+        "chapter_id": 7,
+        "chapter_title": "CHƯƠNG 7. SINH HỌC PHÂN TỬ TRONG HỆ THỐNG HỌC",
+        "title": "7.2 Điện di và xử lý kết quả",
+        "theory": "Điện di tách các đoạn DNA theo kích thước trong gel agarose dưới điện trường. DNA mang điện âm nên chạy từ cực âm (–) sang cực dương (+); đoạn ngắn chạy nhanh hơn. Từ kết quả điện di người ta nhị phân hóa (có vạch = 1, không vạch = 0) thành ma trận 0/1 rồi vẽ cây phả hệ (bài giảng SHPT: SSR, ISSR đều đo độ dài đoạn bằng điện di).",
+        "question_ids": [
+          "q_158_88",
+          "q_159_90",
+          "q_160_324",
+          "q_161_164"
+        ]
+      },
+      {
+        "id": "7.3",
+        "chapter_id": 7,
+        "chapter_title": "CHƯƠNG 7. SINH HỌC PHÂN TỬ TRONG HỆ THỐNG HỌC",
+        "title": "7.3 Vùng bảo tồn, vùng đa hình, SSR và DNA barcode",
+        "theory": "Theo bài giảng SHPT: tần suất biến dị không đồng nhất trên genome. Vùng bảo tồn (housekeeping gene) ít biến dị, giống nhau giữa nhiều loài; vùng đa hình biến dị nhiều, có khác biệt ngay trong loài. SSR phù hợp phân tích mức loài và dưới loài, khó ở mức chi trở lên do biến dị lớn. DNA barcode so sánh trình tự một đoạn marker; marker phổ biến ở thực vật: rbcL, matK, ITS, trnH-psbA, trnL-F, atpB-rbcL. Nhược điểm của SHPT: kỹ thuật phức tạp, chi phí và thời gian.",
+        "question_ids": [
+          "q_162_41",
+          "q_163_42",
+          "q_164_43",
+          "q_165_140",
+          "q_166_141",
+          "q_167_162",
+          "q_168_167",
+          "q_169_93"
+        ]
+      },
+      {
+        "id": "7.4",
+        "chapter_id": 7,
+        "chapter_title": "CHƯƠNG 7. SINH HỌC PHÂN TỬ TRONG HỆ THỐNG HỌC",
+        "title": "7.4 So sánh trình tự, độ tương đồng và cây phả hệ",
+        "theory": "Công cụ so sánh trình tự trên NCBI là BLAST. Độ tương đồng giữa hai mẫu tính theo hệ số F = 2nab / (na + nb) (Nei & Li). Cây phả hệ (phylogenetic tree) biểu diễn quan hệ tiến hóa; độ tin cậy của các nhánh đánh giá bằng bootstrap. Phylogeny là phả hệ học.",
+        "question_ids": [
+          "q_170_165",
+          "q_171_166",
+          "q_172_163",
+          "q_173_286",
+          "q_174_317",
+          "q_175_285",
+          "q_176_308",
+          "q_177_313",
+          "q_178_314",
+          "q_179_287"
+        ]
+      },
+      {
+        "id": "7.5",
+        "chapter_id": 7,
+        "chapter_title": "CHƯƠNG 7. SINH HỌC PHÂN TỬ TRONG HỆ THỐNG HỌC",
+        "title": "7.5 Đọc cây phả hệ để tìm loài gần gũi",
+        "theory": "Hai loài nằm trên các nhánh càng sát nhau thì càng gần gũi. Trong cây phả hệ của đề: nhóm cây 1 lá mầm (chuối, lúa, bắp, lúa mì…) tách riêng; trà, cà chua, khoai tây cùng nhánh; đậu nành cùng nhóm họ Đậu; bông vải gần nhóm cam và họ Cải.",
+        "question_ids": [
+          "q_180_278",
+          "q_181_279",
+          "q_182_334",
+          "q_183_335"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8.1,
+    "title": "CHƯƠNG 8 (PHẦN 1). HỌ THỰC VẬT VÀ QUAN HỆ HỌ HÀNG",
+    "short_title": "Chương 8.1",
+    "intro": "Đợt 3 gồm 47 câu. Số câu là số thứ tự trong file đề cương gốc; các câu có nội dung giống nhau được gom lại cùng một nhóm để dễ đối chiếu và nhớ. Đáp án được xác định theo giáo trình và kiến thức thực vật học, không dựa hoàn toàn vào file đáp án của đề cương.",
+    "file_name": "media_1795451137007_7735812d.docx",
+    "question_count": 47,
+    "sections": [
+      {
+        "id": "8.1",
+        "chapter_id": 8.1,
+        "chapter_title": "CHƯƠNG 8 (PHẦN 1). HỌ THỰC VẬT VÀ QUAN HỆ HỌ HÀNG",
+        "title": "8.1 Họ Hòa thảo (Poaceae)",
+        "theory": "Poaceae gồm lúa, bắp, mía, lúa mì, lúa mạch, cỏ. Cây 1 lá mầm, rễ chùm, thân có mô phân sinh lóng, quả dĩnh. Đây là họ cung cấp nhiều cây lương thực (ngũ cốc) nhất cho loài người.",
+        "question_ids": [
+          "q_184_62",
+          "q_185_180",
+          "q_186_306",
+          "q_187_215",
+          "q_188_100",
+          "q_189_277",
+          "q_190_148"
+        ]
+      },
+      {
+        "id": "8.2",
+        "chapter_id": 8.1,
+        "chapter_title": "CHƯƠNG 8 (PHẦN 1). HỌ THỰC VẬT VÀ QUAN HỆ HỌ HÀNG",
+        "title": "8.2 Họ Cà (Solanaceae)",
+        "theory": "Solanaceae gồm cà chua, khoai tây, ớt, cà tím, cà pháo, thuốc lá. Hoa có tràng dính, 5 nhị, bầu 2 ô. Cà phê (Rubiaceae), khoai lang (Convolvulaceae), khoai mì (Euphorbiaceae), trà (Theaceae) không thuộc họ này. Lưu ý: câu 192 (Cây khoai tây thuộc họ) đề thiếu đáp án đúng vì họ của khoai tây là Solanaceae, không có trong 4 phương án; không có phương án nào đúng.",
+        "question_ids": [
+          "q_191_66",
+          "q_192_96",
+          "q_193_221",
+          "q_194_223",
+          "q_195_122",
+          "q_196_123",
+          "q_197_153",
+          "q_198_29",
+          "q_199_303",
+          "q_200_296",
+          "q_201_152",
+          "q_202_138"
+        ]
+      },
+      {
+        "id": "8.3",
+        "chapter_id": 8.1,
+        "chapter_title": "CHƯƠNG 8 (PHẦN 1). HỌ THỰC VẬT VÀ QUAN HỆ HỌ HÀNG",
+        "title": "8.3 Họ Đậu (Fabaceae)",
+        "theory": "Fabaceae gồm đậu nành, đậu phộng, đậu rồng, đậu xanh, mắc cỡ, bồ kết, phượng vỹ. Rễ có nốt sần Rhizobium cố định đạm, quả đậu (pod). Đậu bắp thuộc họ Bông (Malvaceae), không phải họ Đậu.",
+        "question_ids": [
+          "q_203_99",
+          "q_204_205",
+          "q_205_154",
+          "q_206_234",
+          "q_207_325",
+          "q_208_261",
+          "q_209_206"
+        ]
+      },
+      {
+        "id": "8.4",
+        "chapter_id": 8.1,
+        "chapter_title": "CHƯƠNG 8 (PHẦN 1). HỌ THỰC VẬT VÀ QUAN HỆ HỌ HÀNG",
+        "title": "8.4 Họ Bầu bí (Cucurbitaceae)",
+        "theory": "Cucurbitaceae gồm bầu, bí, mướp, dưa leo, dưa hấu, khổ qua, gấc. Thân bò có tua cuốn, hoa đơn tính, bầu hạ, quả mọng đặc biệt (quả bí). Khổ qua (Momordica charantia) và gấc (Momordica cochinchinensis) cùng chi Momordica.",
+        "question_ids": [
+          "q_210_109",
+          "q_211_184",
+          "q_212_185",
+          "q_213_186",
+          "q_214_187",
+          "q_215_301",
+          "q_216_222",
+          "q_217_270",
+          "q_218_299"
+        ]
+      },
+      {
+        "id": "8.5",
+        "chapter_id": 8.1,
+        "chapter_title": "CHƯƠNG 8 (PHẦN 1). HỌ THỰC VẬT VÀ QUAN HỆ HỌ HÀNG",
+        "title": "8.5 Họ Cam (Rutaceae)",
+        "theory": "Rutaceae gồm cam, quýt, bưởi, chanh, tắc, phật thủ. Quả có múi, lá có tuyến tinh dầu. Chanh dây là cây họ Lạc tiên (Passifloraceae), khác họ.",
+        "question_ids": [
+          "q_219_183",
+          "q_220_126",
+          "q_221_224",
+          "q_222_150"
+        ]
+      },
+      {
+        "id": "8.6",
+        "chapter_id": 8.1,
+        "chapter_title": "CHƯƠNG 8 (PHẦN 1). HỌ THỰC VẬT VÀ QUAN HỆ HỌ HÀNG",
+        "title": "8.6 Họ Xoài (Anacardiaceae) và họ Bông (Malvaceae)",
+        "theory": "Anacardiaceae gồm xoài, điều (đào lộn hột), mận hôm. Malvaceae (nay gồm cả họ Trôm, Bông) có bông vải, dâm bụt, đậu bắp, sầu riêng, cacao.",
+        "question_ids": [
+          "q_223_63",
+          "q_224_195",
+          "q_225_196",
+          "q_226_197",
+          "q_227_151",
+          "q_228_208",
+          "q_229_233",
+          "q_230_291"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8.2,
+    "title": "CHƯƠNG 8 (PHẦN 2). HỌ THỰC VẬT VÀ QUAN HỆ HỌ HÀNG",
+    "short_title": "Chương 8.2",
+    "intro": "Đợt 3 gồm 61 câu. Số câu là số thứ tự trong file đề cương gốc; các câu có nội dung giống nhau được gom lại cùng một nhóm để dễ đối chiếu và nhớ. Đáp án được xác định theo giáo trình và kiến thức thực vật học, không dựa hoàn toàn vào file đáp án của đề cương.",
+    "file_name": "media_1795451137007_2b2a7c2e.docx",
+    "question_count": 61,
+    "sections": [
+      {
+        "id": "8.7",
+        "chapter_id": 8.2,
+        "chapter_title": "CHƯƠNG 8 (PHẦN 2). HỌ THỰC VẬT VÀ QUAN HỆ HỌ HÀNG",
+        "title": "8.7 Họ Cúc (Asteraceae)",
+        "theory": "Asteraceae là họ có số loài nhiều nhất trong thực vật bậc cao: hướng dương, vạn thọ, cúc, đồng tiền, xà lách, atisô, cúc bách nhật không thuộc họ này (cúc bách nhật là Amaranthaceae). Hoa tự đầu, hoa lưỡi và hoa ống, thường chứa hợp chất thứ cấp (tinh dầu, lacton) giúp chống sâu bệnh.",
+        "question_ids": [
+          "q_231_101",
+          "q_232_128",
+          "q_233_188",
+          "q_234_228",
+          "q_235_227",
+          "q_236_316",
+          "q_237_315",
+          "q_238_84",
+          "q_239_289"
+        ]
+      },
+      {
+        "id": "8.8",
+        "chapter_id": 8.2,
+        "chapter_title": "CHƯƠNG 8 (PHẦN 2). HỌ THỰC VẬT VÀ QUAN HỆ HỌ HÀNG",
+        "title": "8.8 Họ Thập tự (Brassicaceae)",
+        "theory": "Brassicaceae gồm bắp cải, cải xanh, cải thảo, súp lơ, cải củ. Hoa có 4 cánh xếp hình chữ thập. Bắp cải, súp lơ trắng, súp lơ xanh (broccoli) cùng loài Brassica oleracea; cải xanh là Brassica juncea (cùng chi). Họ Thập tự không quang hợp kiểu CAM.",
+        "question_ids": [
+          "q_240_181",
+          "q_241_307",
+          "q_242_85",
+          "q_243_130",
+          "q_244_155"
+        ]
+      },
+      {
+        "id": "8.9",
+        "chapter_id": 8.2,
+        "chapter_title": "CHƯƠNG 8 (PHẦN 2). HỌ THỰC VẬT VÀ QUAN HỆ HỌ HÀNG",
+        "title": "8.9 Họ Cà phê, Bìm bìm, Thầu dầu, Dâu tằm, Hoa hồng",
+        "theory": "Rubiaceae: cà phê. Convolvulaceae (Bìm bìm): khoai lang, rau muống. Euphorbiaceae (Thầu dầu): cao su, khoai mì, trạng nguyên, thầu dầu. Moraceae (Dâu tằm): mít, sa kê, sung, dâu tằm. Rosaceae: hoa hồng, đào, mận, dâu tây, táo.",
+        "question_ids": [
+          "q_245_98",
+          "q_246_182",
+          "q_247_191",
+          "q_248_86",
+          "q_249_160",
+          "q_250_161",
+          "q_251_189",
+          "q_252_65",
+          "q_253_300",
+          "q_254_326",
+          "q_255_120",
+          "q_256_209",
+          "q_257_330",
+          "q_258_190",
+          "q_259_231"
+        ]
+      },
+      {
+        "id": "8.10",
+        "chapter_id": 8.2,
+        "chapter_title": "CHƯƠNG 8 (PHẦN 2). HỌ THỰC VẬT VÀ QUAN HỆ HỌ HÀNG",
+        "title": "8.10 Họ Hồ tiêu, Gừng, Dền, Hành, Hoa tán",
+        "theory": "Piperaceae: hồ tiêu, trầu không, lá lốt. Zingiberaceae: gừng, nghệ, riềng, sa nhân. Amaranthaceae: dền, mồng gà. Alliaceae/Amaryllidaceae: hành, tỏi. Apiaceae: cà rốt, ngò, rau má.",
+        "question_ids": [
+          "q_260_213",
+          "q_261_87",
+          "q_262_214",
+          "q_263_124",
+          "q_264_225",
+          "q_265_157",
+          "q_266_194",
+          "q_267_298",
+          "q_268_193",
+          "q_269_129"
+        ]
+      },
+      {
+        "id": "8.11",
+        "chapter_id": 8.2,
+        "chapter_title": "CHƯƠNG 8 (PHẦN 2). HỌ THỰC VẬT VÀ QUAN HỆ HỌ HÀNG",
+        "title": "8.11 Các họ còn lại (nhận biết họ của từng loài)",
+        "theory": "Gom các câu hỏi họ của từng loài đơn lẻ: Musaceae (chuối), Arecaceae (cau, dừa), Bromeliaceae (dứa, thơm), Caricaceae (đu đủ), Basellaceae (mồng tơi), Cactaceae (thanh long), Clusiaceae (măng cụt), Myrtaceae (ổi, sim), Orchidaceae (lan), Punicaceae (lựu, nay thuộc Lythraceae), Sapindaceae (nhãn, vải, chôm chôm), Nelumbonaceae (sen), Vitaceae (nho), Droseraceae (cây ăn côn trùng), Lamiaceae (bạc hà, tía tô, hương thảo). Lưu ý: câu 198 (Cây hoa Loa kèn thuộc họ) đề không rõ: Lilium thuộc họ Loa kèn (Liliaceae), không có trong 4 phương án; nếu hiểu là hoa rum (Zantedeschia) thì thuộc họ Môn (Araceae).",
+        "question_ids": [
+          "q_270_137",
+          "q_271_210",
+          "q_272_199",
+          "q_273_200",
+          "q_274_201",
+          "q_275_202",
+          "q_276_203",
+          "q_277_204",
+          "q_278_211",
+          "q_279_290",
+          "q_280_302",
+          "q_281_212",
+          "q_282_216",
+          "q_283_219",
+          "q_284_220",
+          "q_285_134",
+          "q_286_230",
+          "q_287_229",
+          "q_288_121",
+          "q_289_156",
+          "q_290_127",
+          "q_291_207"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "CHƯƠNG 9. TÊN KHOA HỌC CÁC LOÀI CỤ THỂ",
+    "short_title": "Chương 9",
+    "intro": "Đợt 3 gồm 33 câu. Số câu là số thứ tự trong file đề cương gốc; các câu có nội dung giống nhau được gom lại cùng một nhóm để dễ đối chiếu và nhớ. Đáp án được xác định theo giáo trình và kiến thức thực vật học, không dựa hoàn toàn vào file đáp án của đề cương.",
+    "file_name": "media_1795451137007_7bcf3b1c.docx",
+    "question_count": 33,
+    "sections": [
+      {
+        "id": "9.1",
+        "chapter_id": 9,
+        "chapter_title": "CHƯƠNG 9. TÊN KHOA HỌC CÁC LOÀI CỤ THỂ",
+        "title": "9.1 Nhận biết loài từ tên khoa học",
+        "theory": "Gợi nhớ: Annona squamosa (mãng cầu/na), Durio zibethinus (sầu riêng), Helianthus annuus (hướng dương), Basella rubra (mồng tơi), Carica papaya (đu đủ), Ochna integerrima (mai vàng), Glycine max (đậu nành), Cucurbita maxima (bí đỏ), Persea americana (bơ), Zingiber officinale (gừng), Panax ginseng (nhân sâm Hàn Quốc), Panax vietnamensis (sâm Ngọc Linh), Hibiscus rosa-sinensis (dâm bụt), Piper nigrum (hồ tiêu), Ipomoea aquatica (rau muống), Curcuma aromatica (nghệ có mùi thơm).",
+        "question_ids": [
+          "q_292_104",
+          "q_293_105",
+          "q_294_106",
+          "q_295_107",
+          "q_296_108",
+          "q_297_110",
+          "q_298_111",
+          "q_299_132",
+          "q_300_125",
+          "q_301_218",
+          "q_302_232",
+          "q_303_263",
+          "q_304_264",
+          "q_305_265",
+          "q_306_282",
+          "q_307_329",
+          "q_308_237",
+          "q_309_238"
+        ]
+      },
+      {
+        "id": "9.2",
+        "chapter_id": 9,
+        "chapter_title": "CHƯƠNG 9. TÊN KHOA HỌC CÁC LOÀI CỤ THỂ",
+        "title": "9.2 Lúa, bắp, cà phê và bưởi: các dạng dưới loài",
+        "theory": "var. = thứ; f. = dạng; ssp. = loài phụ. Lúa: Oryza sativa var. glutinosa (lúa nếp); O. sativa f. spontanea (lúa cỏ, cỏ dại nguy hiểm). Bắp: Zea mays var. saccharata (bắp ngọt), var. ceratina (bắp nếp), var. amylacea (bắp bột), var. indurata (bắp đá). Cà phê: Coffea canephora (robusta, trồng phổ biến ở Việt Nam), C. arabica, C. liberica (cây to, lá lớn như mít).",
+        "question_ids": [
+          "q_310_97",
+          "q_311_269",
+          "q_312_102",
+          "q_313_103",
+          "q_314_226",
+          "q_315_217",
+          "q_316_284",
+          "q_317_288",
+          "q_318_283"
+        ]
+      },
+      {
+        "id": "9.3",
+        "chapter_id": 9,
+        "chapter_title": "CHƯƠNG 9. TÊN KHOA HỌC CÁC LOÀI CỤ THỂ",
+        "title": "9.3 Giá trị sử dụng chính của loài",
+        "theory": "Hevea brasiliensis: mủ cao su. Saccharum officinarum: đường. Piper nigrum: gia vị. Mentha arvensis: tinh dầu bạc hà. Arachis hypogaea: hạt giàu dầu. Nelumbo nucifera (sen) là loài hoa được nhiều người mong đợi là Quốc hoa của Việt Nam.",
+        "question_ids": [
+          "q_319_21",
+          "q_320_112",
+          "q_321_113",
+          "q_322_131",
+          "q_323_133",
+          "q_324_117"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "CHƯƠNG 10. GHÉP CÂY, THU HOẠCH VÀ ỨNG DỤNG",
+    "short_title": "Chương 10",
+    "intro": "Đợt 3 gồm 10 câu. Số câu là số thứ tự trong file đề cương gốc; các câu có nội dung giống nhau được gom lại cùng một nhóm để dễ đối chiếu và nhớ. Đáp án được xác định theo giáo trình và kiến thức thực vật học, không dựa hoàn toàn vào file đáp án của đề cương.",
+    "file_name": "media_1795451137007_6eb29050.docx",
+    "question_count": 10,
+    "sections": [
+      {
+        "id": "10.1",
+        "chapter_id": 10,
+        "chapter_title": "CHƯƠNG 10. GHÉP CÂY, THU HOẠCH VÀ ỨNG DỤNG",
+        "title": "10.1 Chọn gốc ghép theo quan hệ họ hàng",
+        "theory": "Gốc ghép và ngọn ghép càng gần nhau về phân loại (cùng họ, tốt nhất cùng chi) thì mô tượng tầng hai bên càng dễ liền nhau và ghép dễ sống. Ghép giữa hai loài khác họ xa nhau (ví dụ trà và cà phê) bằng kỹ thuật truyền thống không thành công.",
+        "question_ids": [
+          "q_325_144",
+          "q_326_145",
+          "q_327_146",
+          "q_328_149"
+        ]
+      },
+      {
+        "id": "10.2",
+        "chapter_id": 10,
+        "chapter_title": "CHƯƠNG 10. GHÉP CÂY, THU HOẠCH VÀ ỨNG DỤNG",
+        "title": "10.2 Bộ phận thu hoạch chính, vị trí hoa và các đặc điểm khác",
+        "theory": "Trà thu lá (búp); đậu nành thu hạt trong quả trên mặt đất; vạn thọ thu hoa; khoai mì thu củ; khoai lang thu củ rễ. Cà chua không tạo củ. Khoai lang không dùng làm nước uống. Hiện tượng hoa mọc trực tiếp từ thân hoặc cành lớn (mít, ca cao, sầu riêng) gọi là ra hoa trên thân (cauliflory).",
+        "question_ids": [
+          "q_329_309",
+          "q_330_311",
+          "q_331_312",
+          "q_332_297",
+          "q_333_295",
+          "q_334_71"
+        ]
+      }
+    ]
+  }
+]

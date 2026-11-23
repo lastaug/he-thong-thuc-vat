@@ -1,0 +1,12 @@
+# Dependencies & temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Scratch files
+data/raw_input.txt
+data/extracted_from_transcript.txt

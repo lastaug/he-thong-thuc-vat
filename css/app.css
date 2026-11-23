@@ -1,0 +1,215 @@
+/* css/app.css - Apple HIG Web Design & Clean UI Standards */
+
+/* 1. Reset & Zero-Jitter */
+html {
+  scrollbar-gutter: stable;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Dark mode palette */
+html.dark body {
+  background-color: #09090b;
+  color: #f4f4f5;
+}
+
+/* 2. Glassmorphism & Header */
+.apple-glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+html.dark .apple-glass {
+  background: rgba(9, 9, 11, 0.85);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* 3. Cards */
+.apple-card {
+  background: #ffffff;
+  border-radius: 1.25rem; /* 20px */
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.02), 0 1px 2px -1px rgba(0, 0, 0, 0.02);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+html.dark .apple-card {
+  background: #121214;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* 4. Button Hierarchy */
+.apple-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem; /* 12px */
+  font-weight: 600;
+  transition: all 0.15s ease;
+  user-select: none;
+  cursor: pointer;
+}
+
+.apple-btn-press:active,
+.apple-btn:active {
+  transform: scale(0.98);
+}
+
+/* Primary Button (Duy nhất 1 trên viewport chính) */
+.apple-btn-primary {
+  background-color: #0071e3;
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+
+.apple-btn-primary:hover {
+  background-color: #0077ed;
+  box-shadow: 0 2px 8px rgba(0, 113, 227, 0.35);
+}
+
+/* Secondary Button (Neutral, viền mỏng) */
+.apple-btn-secondary {
+  background-color: rgba(0, 0, 0, 0.04);
+  color: #1e293b;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+html.dark .apple-btn-secondary {
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #f1f5f9;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.apple-btn-secondary:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+html.dark .apple-btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.apple-icon-btn {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 0.625rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.04);
+  color: #475569;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+html.dark .apple-icon-btn {
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #94a3b8;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.apple-icon-btn:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+  color: #0f172a;
+}
+
+html.dark .apple-icon-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #f8fafc;
+}
+
+/* 5. Navigation Tabs */
+.nav-tab-btn {
+  padding: 0.5rem 0.875rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  border-radius: 0.625rem;
+  color: #64748b;
+  transition: all 0.15s ease;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+html.dark .nav-tab-btn {
+  color: #a1a1aa;
+}
+
+.nav-tab-btn:hover {
+  color: #0f172a;
+  background: rgba(0, 0, 0, 0.04);
+}
+
+html.dark .nav-tab-btn:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.nav-tab-btn.active {
+  color: #0071e3;
+  background: rgba(0, 113, 227, 0.08);
+}
+
+html.dark .nav-tab-btn.active {
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.12);
+}
+
+/* 6. Form elements */
+.apple-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
+  padding-right: 2.25rem !important;
+  cursor: pointer;
+}
+
+/* 7. Modal & Drawer Overlay */
+.apple-modal-overlay {
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.apple-modal-content {
+  border-radius: 1.5rem; /* 24px */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+html.dark .apple-modal-content {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+}
+
+/* 8. Fade In Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Typography Italics for Botanical species */
+em {
+  font-style: italic;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
