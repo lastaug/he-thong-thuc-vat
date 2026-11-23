@@ -119,6 +119,16 @@
       }
     }
 
+    // Chọn đáp án theo số thứ tự (index 0=A, 1=B, 2=C, 3=D) qua phím tắt 1, 2, 3, 4
+    selectOptionByIndex(index) {
+      const q = this.getCurrentQuestion();
+      if (!q || !q.options || index < 0 || index >= q.options.length) return;
+      const opt = q.options[index];
+      if (opt) {
+        this.handleSelectOption(opt.key);
+      }
+    }
+
     // Xử lý khi người học chọn đáp án
     handleSelectOption(optionKey) {
       const q = this.getCurrentQuestion();
@@ -173,12 +183,17 @@
         <div class="max-w-4xl mx-auto px-4 py-4 md:py-6">
           <!-- Top Bar: Tiêu đề chương & Bộ điều khiển nhanh -->
           <div class="flex items-center justify-between mb-4 flex-wrap gap-2">
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-2 flex-wrap">
               <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 border border-black/[0.06] dark:border-white/[0.08]">
                 ${q.chapter_short || 'Chương'}
               </span>
               <span class="text-xs text-neutral-500 dark:text-neutral-400 font-medium truncate max-w-[200px] sm:max-w-xs">
                 ${q.section_title || ''}
+              </span>
+              <span class="hidden md:inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[11px] font-medium text-neutral-500 dark:text-neutral-400 bg-black/[0.03] dark:bg-white/[0.04]">
+                <kbd class="px-1 rounded text-[10px] font-mono bg-white dark:bg-neutral-800 border border-black/[0.06] dark:border-white/[0.08]">1-4</kbd> Chọn A-D
+                •
+                <kbd class="px-1 rounded text-[10px] font-mono bg-white dark:bg-neutral-800 border border-black/[0.06] dark:border-white/[0.08]">←</kbd> <kbd class="px-1 rounded text-[10px] font-mono bg-white dark:bg-neutral-800 border border-black/[0.06] dark:border-white/[0.08]">→</kbd> Đổi câu
               </span>
             </div>
 
@@ -239,7 +254,7 @@
 
             <!-- Danh sách 4 phương án lựa chọn A, B, C, D -->
             <div class="space-y-3">
-              ${q.options.map(opt => {
+              ${q.options.map((opt, optIdx) => {
                 const optKey = opt.key.toLowerCase();
                 const isSelected = ansRecord && (ansRecord.selectedKey.toLowerCase() === optKey);
                 const isCorrectOpt = (optKey === q.correct_key.toLowerCase());
@@ -282,7 +297,12 @@
                         ${this.formatScientificName(opt.text)}
                       </span>
                     </div>
-                    ${iconHtml}
+                    <div class="flex items-center gap-2">
+                      <span class="hidden sm:inline-flex items-center justify-center w-5 h-5 rounded text-[10px] font-mono text-neutral-400 bg-black/[0.03] dark:bg-white/[0.05] border border-black/[0.05] dark:border-white/[0.06]" title="Nhấn phím ${optIdx + 1} để chọn">
+                        ${optIdx + 1}
+                      </span>
+                      ${iconHtml}
+                    </div>
                   </button>
                 `;
               }).join('')}
@@ -355,9 +375,10 @@
             <button
               onclick="window.QuizEngine.prevQuestion()"
               ${this.currentIndex === 0 ? 'disabled' : ''}
-              class="apple-btn apple-btn-secondary px-4 py-2.5 text-sm flex items-center gap-1.5 ${this.currentIndex === 0 ? 'opacity-40 cursor-not-allowed' : ''}">
+              class="apple-btn apple-btn-secondary px-4 py-2.5 text-sm flex items-center gap-2 ${this.currentIndex === 0 ? 'opacity-40 cursor-not-allowed' : ''}">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
               <span>Câu trước</span>
+              <kbd class="hidden sm:inline-block px-1.5 py-0.5 rounded text-[10px] font-mono bg-black/[0.05] dark:bg-white/[0.08] border border-black/[0.08] dark:border-white/[0.1] text-neutral-500 font-semibold">←</kbd>
             </button>
 
             <span class="text-xs font-semibold text-neutral-400">
@@ -367,8 +388,9 @@
             <button
               onclick="window.QuizEngine.nextQuestion()"
               ${this.currentIndex >= total - 1 ? 'disabled' : ''}
-              class="apple-btn apple-btn-primary px-5 py-2.5 text-sm flex items-center gap-1.5 ${this.currentIndex >= total - 1 ? 'opacity-40 cursor-not-allowed' : ''}">
+              class="apple-btn apple-btn-primary px-5 py-2.5 text-sm flex items-center gap-2 ${this.currentIndex >= total - 1 ? 'opacity-40 cursor-not-allowed' : ''}">
               <span>Câu tiếp</span>
+              <kbd class="hidden sm:inline-block px-1.5 py-0.5 rounded text-[10px] font-mono bg-white/20 border border-white/30 text-white font-semibold">→</kbd>
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
             </button>
           </div>
@@ -456,4 +478,49 @@
   }
 
   window.QuizEngine = new QuizEngine();
+
+  // Thiết lập phím tắt bàn phím: 1, 2, 3, 4 chọn A, B, C, D & Mũi tên Trái / Phải đổi câu
+  document.addEventListener('keydown', (e) => {
+    // Không nhận phím khi người dùng đang nhập văn bản trong ô input, textarea
+    if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
+
+    // Không nhận phím khi các modal (tìm kiếm, bảng câu hỏi) đang hiển thị
+    const searchModal = document.getElementById('search-modal');
+    if (searchModal && !searchModal.classList.contains('hidden')) return;
+
+    const gridModal = document.getElementById('grid-modal');
+    if (gridModal && !gridModal.classList.contains('hidden')) return;
+
+    // Chỉ nhận phím khi đang ở màn hình làm bài trắc nghiệm (quiz tab)
+    if (window.App && window.App.currentTab !== 'quiz') return;
+
+    // 1. Phím Mũi tên trái: Chuyển câu trước
+    if (e.key === 'ArrowLeft') {
+      e.preventDefault();
+      window.QuizEngine.prevQuestion();
+      return;
+    }
+
+    // 2. Phím Mũi tên phải: Chuyển câu sau
+    if (e.key === 'ArrowRight') {
+      e.preventDefault();
+      window.QuizEngine.nextQuestion();
+      return;
+    }
+
+    // 3. Phím 1, 2, 3, 4 hoặc A, B, C, D: Chọn phương án tương ứng
+    if (e.key === '1' || e.key.toLowerCase() === 'a') {
+      e.preventDefault();
+      window.QuizEngine.selectOptionByIndex(0);
+    } else if (e.key === '2' || e.key.toLowerCase() === 'b') {
+      e.preventDefault();
+      window.QuizEngine.selectOptionByIndex(1);
+    } else if (e.key === '3' || e.key.toLowerCase() === 'c') {
+      e.preventDefault();
+      window.QuizEngine.selectOptionByIndex(2);
+    } else if (e.key === '4' || e.key.toLowerCase() === 'd') {
+      e.preventDefault();
+      window.QuizEngine.selectOptionByIndex(3);
+    }
+  });
 })();
