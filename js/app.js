@@ -93,15 +93,10 @@
       this.switchTab('quiz');
     }
 
-    // Làm bài trực tiếp cho 1 câu cụ thể
+    // Làm bài trực tiếp cho 1 câu cụ thể (làm lại từ đầu câu này)
     startSingleQuiz(qId) {
-      const allQ = window.BOTANY_DATA.questions;
-      const targetIndex = allQ.findIndex(q => q.id === qId);
-      if (targetIndex !== -1) {
-        window.QuizEngine.initSession('all', 'all');
-        window.QuizEngine.jumpToIndex(targetIndex);
-        this.switchTab('quiz');
-      }
+      window.QuizEngine.initSession('single', qId);
+      this.switchTab('quiz');
     }
 
     // Render danh sách 11 chương trên trang chủ

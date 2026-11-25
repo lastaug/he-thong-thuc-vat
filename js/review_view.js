@@ -140,6 +140,11 @@
                         <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-bold ${rec.wrongCount >= 2 ? 'bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300' : 'bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300'}">
                           Đã sai ${rec.wrongCount} lần
                         </span>
+                        ${rec.lastCorrectTimestamp && (!rec.timestamp || rec.lastCorrectTimestamp > rec.timestamp) ? `
+                          <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300">
+                            ✓ Vừa làm lại đúng
+                          </span>
+                        ` : ''}
                         ${rec.mastered ? `
                           <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-semibold bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300">
                             Đã nắm vững

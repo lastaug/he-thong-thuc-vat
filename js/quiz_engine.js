@@ -4,10 +4,11 @@
     constructor() {
       this.questions = [];
       this.currentIndex = 0;
-      this.mode = 'chapter'; // 'chapter' | 'all' | 'wrong' | 'bookmarked' | 'section'
+      this.mode = 'chapter'; // 'chapter' | 'all' | 'wrong' | 'bookmarked' | 'section' | 'single'
       this.filterId = null;
       this.title = 'Trắc nghiệm theo chương';
       this.audioContext = null;
+      this.sessionAnswers = {}; // Lưu câu trả lời của phiên làm bài hiện tại để làm lại từ đầu
     }
 
     // Phát âm thanh phản hồi nhẹ bằng Web Audio API
@@ -57,9 +58,14 @@
     initSession(mode = 'chapter', filterId = null, title = null) {
       this.mode = mode;
       this.filterId = filterId;
+      this.sessionAnswers = {}; // Luôn làm lại từ đầu khi bắt đầu một phiên mới
       const allQ = window.BOTANY_DATA ? window.BOTANY_DATA.questions : [];
 
-      if (mode === 'chapter') {
+      if (mode === 'single') {
+        const targetQ = allQ.find(q => q.id === filterId);
+        this.questions = targetQ ? [targetQ] : [];
+        this.title = title || (targetQ ? `Làm lại ${targetQ.original_num}` : 'Làm lại câu hỏi');
+      } else if (mode === 'chapter') {
         if (filterId === 'all') {
           this.questions = [...allQ];
           this.title = 'Toàn bộ ngân hàng (334 câu)';
@@ -83,12 +89,19 @@
           const chId = Number(filterId);
           this.questions = this.questions.filter(q => q.chapter_id === chId);
         }
-        this.title = title || 'Ôn tập câu làm sai';
+        this.title = title || `Ôn tập câu làm sai (${this.questions.length} câu)`;
       } else if (mode === 'bookmarked') {
         this.questions = allQ.filter(q => window.BotanyStorage.isBookmarked(q.id));
         this.title = 'Danh sách câu hỏi đã gắn sao';
       }
 
+      this.currentIndex = 0;
+      this.render();
+    }
+
+    // Đặt lại phiên làm bài hiện tại để làm lại từ đầu
+    restartCurrentSession() {
+      this.sessionAnswers = {};
       this.currentIndex = 0;
       this.render();
     }
@@ -135,6 +148,14 @@
       if (!q) return;
 
       const isCorrect = (optionKey.toLowerCase() === q.correct_key.toLowerCase());
+      
+      // 1. Lưu câu trả lời của phiên này để giao diện hiển thị ngay
+      this.sessionAnswers[q.id] = {
+        selectedKey: optionKey,
+        isCorrect: isCorrect
+      };
+
+      // 2. Ghi nhận vào storage để lưu vết, đếm số lần sai và cập nhật thống kê
       window.BotanyStorage.recordAnswer(q.id, optionKey, isCorrect, q.chapter_id);
       this.playFeedbackSound(isCorrect);
       this.render();
@@ -174,7 +195,9 @@
 
       const total = this.questions.length;
       const progressPercent = Math.round(((this.currentIndex + 1) / total) * 100);
-      const ansRecord = window.BotanyStorage.getAnswer(q.id);
+      
+      // Kiểm tra câu trả lời TRONG PHIÊN LÀM BÀI NÀY (để cho phép làm lại từ đầu)
+      const ansRecord = this.sessionAnswers[q.id] || null;
       const wrongRec = window.BotanyStorage.getWrongRecord(q.id);
       const isBookmarked = window.BotanyStorage.isBookmarked(q.id);
       const isAnswered = !!ansRecord;
@@ -198,6 +221,14 @@
             </div>
 
             <div class="flex items-center gap-2">
+              <!-- Nút Làm lại từ đầu phiên này -->
+              <button onclick="window.QuizEngine.restartCurrentSession()" class="apple-btn apple-btn-secondary text-xs flex items-center gap-1.5 py-1.5 px-2.5" title="Làm lại từ đầu phiên này">
+                <svg class="w-3.5 h-3.5 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                </svg>
+                <span class="hidden sm:inline">Làm lại từ đầu</span>
+              </button>
+
               <!-- Nút Bookmark sao -->
               <button onclick="window.QuizEngine.toggleCurrentBookmark()" class="apple-icon-btn ${isBookmarked ? 'text-amber-500 bg-amber-50 dark:bg-amber-950/40 border-amber-200 dark:border-amber-800' : ''}" title="Gắn sao ghi nhớ">
                 <svg class="w-4 h-4" fill="${isBookmarked ? 'currentColor' : 'none'}" stroke="currentColor" viewBox="0 0 24 24">
@@ -370,29 +401,45 @@
             ` : ''}
           </div>
 
-          <!-- Bottom Navigation Bar: Nút Câu trước / Câu tiếp theo -->
+          <!-- Bottom Navigation Bar: Nút Câu trước / Câu tiếp theo hoặc Điều hướng câu đơn -->
           <div class="flex items-center justify-between gap-3">
-            <button
-              onclick="window.QuizEngine.prevQuestion()"
-              ${this.currentIndex === 0 ? 'disabled' : ''}
-              class="apple-btn apple-btn-secondary px-4 py-2.5 text-sm flex items-center gap-2 ${this.currentIndex === 0 ? 'opacity-40 cursor-not-allowed' : ''}">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
-              <span>Câu trước</span>
-              <kbd class="hidden sm:inline-block px-1.5 py-0.5 rounded text-[10px] font-mono bg-black/[0.05] dark:bg-white/[0.08] border border-black/[0.08] dark:border-white/[0.1] text-neutral-500 font-semibold">←</kbd>
-            </button>
+            ${total > 1 ? `
+              <button
+                onclick="window.QuizEngine.prevQuestion()"
+                ${this.currentIndex === 0 ? 'disabled' : ''}
+                class="apple-btn apple-btn-secondary px-4 py-2.5 text-sm flex items-center gap-2 ${this.currentIndex === 0 ? 'opacity-40 cursor-not-allowed' : ''}">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
+                <span>Câu trước</span>
+                <kbd class="hidden sm:inline-block px-1.5 py-0.5 rounded text-[10px] font-mono bg-black/[0.05] dark:bg-white/[0.08] border border-black/[0.08] dark:border-white/[0.1] text-neutral-500 font-semibold">←</kbd>
+              </button>
 
-            <span class="text-xs font-semibold text-neutral-400">
-              ${this.currentIndex + 1} / ${total}
-            </span>
+              <span class="text-xs font-semibold text-neutral-400">
+                ${this.currentIndex + 1} / ${total}
+              </span>
 
-            <button
-              onclick="window.QuizEngine.nextQuestion()"
-              ${this.currentIndex >= total - 1 ? 'disabled' : ''}
-              class="apple-btn apple-btn-primary px-5 py-2.5 text-sm flex items-center gap-2 ${this.currentIndex >= total - 1 ? 'opacity-40 cursor-not-allowed' : ''}">
-              <span>Câu tiếp</span>
-              <kbd class="hidden sm:inline-block px-1.5 py-0.5 rounded text-[10px] font-mono bg-white/20 border border-white/30 text-white font-semibold">→</kbd>
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
-            </button>
+              <button
+                onclick="window.QuizEngine.nextQuestion()"
+                ${this.currentIndex >= total - 1 ? 'disabled' : ''}
+                class="apple-btn apple-btn-primary px-5 py-2.5 text-sm flex items-center gap-2 ${this.currentIndex >= total - 1 ? 'opacity-40 cursor-not-allowed' : ''}">
+                <span>Câu tiếp</span>
+                <kbd class="hidden sm:inline-block px-1.5 py-0.5 rounded text-[10px] font-mono bg-white/20 border border-white/30 text-white font-semibold">→</kbd>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+              </button>
+            ` : `
+              <button
+                onclick="window.App.switchTab('review')"
+                class="apple-btn apple-btn-secondary px-4 py-2.5 text-sm flex items-center gap-2">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
+                <span>Về danh sách câu sai</span>
+              </button>
+
+              <button
+                onclick="window.QuizEngine.restartCurrentSession()"
+                class="apple-btn apple-btn-primary px-5 py-2.5 text-sm flex items-center gap-2">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+                <span>Làm lại câu này từ đầu</span>
+              </button>
+            `}
           </div>
         </div>
       `;
@@ -416,7 +463,8 @@
       if (!modal || !gridContainer) return;
 
       const items = this.questions.map((item, idx) => {
-        const ans = window.BotanyStorage.getAnswer(item.id);
+        // Kiểm tra câu trả lời trong phiên hiện tại
+        const ans = this.sessionAnswers[item.id];
         const isCurrent = idx === this.currentIndex;
         let bg = "bg-neutral-100 text-neutral-700 dark:bg-neutral-800 dark:text-neutral-300 border-neutral-200 dark:border-neutral-700";
         if (ans) {
